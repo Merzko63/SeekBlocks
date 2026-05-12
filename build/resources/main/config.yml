@@ -1,0 +1,20 @@
+# ===========================
+# config.yml
+# ===========================
+# Language setting: ru_ru or en_en
+lang: en_en
+
+# Maximum number of blocks a player can disguise as
+max-disguises: 10
+
+# List of blocks players can disguise as
+allowed-blocks:
+  - STONE
+  - GRASS_BLOCK
+  - DIRT
+  - COBBLESTONE
+  - OAK_LOG
+  - BRICKS
+  - SAND
+  - GRAVEL
+  - SNOW_BLOCK

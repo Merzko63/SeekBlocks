@@ -1,0 +1,20 @@
+name: SeekBlocks
+version: '1.0'
+main: ru.seekblock.seekblocks.SeekBlocks
+api-version: '1.16'
+author: SeekBlock
+description: Allows players to disguise themselves as blocks
+
+permissions:
+  seekblocks.use:
+    description: Allows using block disguise feature
+    default: true
+  seekblocks.admin:
+    description: Admin permissions
+    default: op
+
+commands:
+  sk:
+    description: Main command for SeekBlocks
+    aliases: [seekblocks, sb]
+    usage: /sk help
